@@ -41,7 +41,9 @@
 <p><strong>Short description: ${short_description}<br /></strong></p>
 <p><strong>Please complete this task as soon as possible.</strong></p>
 <p><strong>Click here to view the NeedIt Task record: ${URI_REF}</strong></p>
-<pre><code>${mail_script:CountOverdueNeedItTasksAssignedTo}</code></pre>]]></message_html>
+<pre><code>${mail_script:CountOverdueNeedItTasksAssignedTo}<br /><br /></code></pre>
+<pre><code>${mailto:mailto.closeneedittask}</code></pre>
+<pre><code></code></pre>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Overdue NeedIt Task</name>
@@ -50,7 +52,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users>javiyahima11@gmail.com</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -63,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>df7efba6db620010954070e2399619d0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -71,7 +73,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_df7efba6db620010954070e2399619d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-28 09:31:25</sys_updated_on>
+        <sys_updated_on>2020-02-05 05:33:32</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
